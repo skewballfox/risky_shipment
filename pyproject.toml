@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "risky_shipment"
+version = "0.1.0"
+description = "an environment setup for analyzing crates data and calculating a depenency risk score"
+authors = ["skewballfox <joshua.ferguson.273@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+request2 = "^0.2"
+ipython-sql = "^0.4.0"
+psycopg2 = "^2.9.3"
+SQLAlchemy = "^1.4.36"
+ipykernel = "^6.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
