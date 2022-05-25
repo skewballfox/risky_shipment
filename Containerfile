@@ -3,7 +3,7 @@ FROM postgres
 ENV POSTGRES_DB=crates_db
 
 
-#set the password for the db to the contents of .password
+
 ENV POSTGRES_PASSWORD=${PASSWORD:-posgres}
 
 
